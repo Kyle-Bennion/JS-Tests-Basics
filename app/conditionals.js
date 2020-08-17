@@ -1,8 +1,12 @@
 //1. Given two numbers, write a function that will return  the larger number
 
 function largerNum(num1, num2) {
-    // you code here
-
+    if (num1 > num2)
+        return num1;
+    else if (num1 === num2)
+        return 0;
+    else
+        return num2
 }
 
 // 2. Given two numbers, amount correct and amount possible of a test, return the corresponding letter grade.
